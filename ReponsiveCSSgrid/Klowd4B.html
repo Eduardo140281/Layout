@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+    
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/stylesLayout.css">
+
+</head>
+
+<style>
+
+  *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      body{
+          background-color: #eeece8;
+          font-family: sans-serif;
+      }
+      .table-container{
+          padding: 0 10%;
+          margin: 40px auto 0;
+      }
+      .heading{
+          font-size: 40px;
+          text-align: center;
+          color: #f1f1f1;
+          margin-bottom: 40px;
+      }
+      .table{
+          width: 100%;
+          border-collapse: collapse;
+      }
+      .table thead {
+          background-color: #0b161f;
+      }
+      .table thead tr th{
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.35px;
+          color: #ffffff;
+          opacity: 1;
+          padding: 12px;
+          vertical-align: top;
+          border: 1px solid #39454f;
+      }
+      .table tbody tr td{
+          font-size: 14px;
+          letter-spacing: 0.35px;
+          font-weight: normal;
+          color: #559fdb;
+          background-color: #d2d7df;
+          padding: 8px;
+          text-align: center;
+          border: 1px solid #303b41;
+      }
+      .table .text_open  {
+          font-size: 14px;
+          font-weight: bold;
+          letter-spacing: 0.35px;
+          color: #289fee;
+      }
+      .table tbody tr td .btn {
+          width: 130px;
+          text-decoration: none;
+          line-height: 35px;
+          display: inline-block;
+          background-color: #289fee;
+          font-weight: medium;
+          color: #ffffff;
+          text-align: center;
+          vertical-align: middle;
+          user-select: none;
+          border: 1px solid transparent;
+          font-size: 14px;
+          opacity: 1;
+      }
+      @media (max-width: 768px) {
+          .table thead{
+              display: none;
+          }
+          .table, .table tbody, .table tr, .table td {
+              display: block;
+              width: 100%;
+          }
+          .table tbody tr {
+              margin-bottom: 15px;
+          }
+          .table tbody  tr td{
+              text-align: right;
+              padding-left: 50%;
+              position: relative
+          }
+          .table td:before{
+              content: attr(data-label);
+              position: absolute;
+              left: 0;
+              width: 50%;
+              padding-left: 15px;
+              font-weight: 600;
+              font-size: 14px;
+              text-align: left;
+          }
+      }
+  
+  
+  
+     </style>
+
+<body>
+    
+    
+      
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+  <!-- Ejercicio -->
+
+</head>
+
+
+
+<div class="container">
+  <nav>
+          Navbar
+    
+
+
+
+  </nav>
+  <main>Main</main>
+  <div id="sidebar">Sidebar</div>
+  <div id="content1">Content1</div>
+  <div id="content2">Content2</div>
+  <div id="content3">Content3</div>
+  <footer>Footer</footer>
+</div>
+
+
+      
+    
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main_navBar.js"></script>
+
+</body>
+</html>
+
+
